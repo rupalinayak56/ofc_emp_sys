@@ -1,0 +1,12 @@
+body
+{
+    background-image: url('../images/bg2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+h1
+{
+    font-weight: bold;
+}

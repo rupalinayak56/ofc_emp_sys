@@ -1,0 +1,22 @@
+{% extends 'dummy.html' %}
+{% load static %}
+{% block title%}
+ <title>EMPLOYEES</title>
+{% endblock %}
+
+{% block body_block  %}
+<link rel="stylesheet" href="{% static 'css/c1.css' %}">
+
+
+  <center>
+    <h1>OFFICE EMPLOYEE MANAGEMENT SYSTEM</h1>
+  <hr>
+    <a class="btn btn-primary" href="{% url 'all_emp' %}"><b>VIEW ALL EMPLOYEE</b></a><br>
+    <a class="btn btn-primary mt-5" href="{% url 'add_emp' %}"><b>ADD AN EMPLOYEE</b></a><br>
+    <a class="btn btn-danger mt-5" href="{% url 'remove_emp' %}"><b>REMOVE AN EMPLOYEE</b></a><br>
+    <a class="btn btn-primary mt-5" href="{% url 'filter_emp' %}"><b>FILTER EMPLOYEE DETAILS</b></a>
+
+  </center>
+
+{% endblock %}
+

@@ -1,0 +1,22 @@
+body
+{
+    background-image: url('../images/bg2.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+td
+{
+    background-color: white;
+    color: black;
+}
+p{
+            color: white;
+            
+}
+input[type="text"],input[type='number'],select
+        {
+            outline: none;
+            border-radius: 10px;
+        }
